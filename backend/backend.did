@@ -1,0 +1,7 @@
+service : {
+  getHolidays: (nat) -> (vec record {
+                               nat;
+                               nat;
+                               text;
+                             }) query;
+}
